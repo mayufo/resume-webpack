@@ -1,0 +1,27 @@
+{
+  "name": "resume-webpack",
+  "version": "1.0.0",
+  "description": "\"# resume-webpack\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayufo/resume-webpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayufo/resume-webpack/issues"
+  },
+  "homepage": "https://github.com/mayufo/resume-webpack#readme",
+  "devDependencies": {
+    "webpack": "^3.11.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1"
+  }
+}

@@ -1,0 +1,44 @@
+.shadow {
+    background: #b7b7b7;
+    display: flex;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.loading {
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.loading::before, .loading::after {
+    content: '';
+    border-radius: 50%;
+    animation: loading 1.5s linear infinite;
+    background: black;
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    display: block;
+}
+.loading::after {
+    animation-delay: 0.75s;
+}
+@keyframes loading {
+    0% {
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+    100% {
+        width: 100px;
+        height: 100px;
+        opacity: 0;
+    }
+}
