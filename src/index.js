@@ -6,5 +6,6 @@ console.log(1)
 
 import x from './text1'
 import y from './text2'
+import './css/index.scss'
 x()
 y()
