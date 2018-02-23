@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/mayufo/resume-webpack#readme",
   "devDependencies": {
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
     "webpack": "^3.11.0"
   },
   "dependencies": {
